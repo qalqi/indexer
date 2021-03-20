@@ -1,6 +1,6 @@
-# PolkaStats Backend v3
+# Social DAO Blockchain Data Indexer
 
-New improved backend for https://polkastats.io!
+Fork of Polkastats-backend-v3 to work with The Social DAO. This repo is used to index data into postgres for providing a higher performance API to front end applications.
 
 <!--ts-->
 
@@ -62,6 +62,10 @@ npm run docker:clean
 npm run docker:build
 npm run docker
 ```
+
+## Production Deployment
+
+To deploy the crawler and social network node to kubernetes see the /charts folder.
 
 ## Crawler
 
