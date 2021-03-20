@@ -1,7 +1,6 @@
 require('dotenv').config();
 
 const customTypes = require('./constants/customTypes');
-
 module.exports = {
   substrateNetwork: process.env.SUBSTRATE_NETWORK || 'social.network',
   wsProviderUrl: process.env.WS_PROVIDER_URL || 'wss://chi1.social.network',
