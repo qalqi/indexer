@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "docker": "docker-compose -f docker/polkastats-backend/docker-compose-polkadot.yml up -d",
+    "docker": "docker-compose -f docker/polkastats-backend/docker-compose-social.yml up -d",
     "docker:polkadot": "docker-compose -f docker/polkastats-backend/docker-compose-polkadot.yml up -d",
     "docker:kusama": "docker-compose -f docker/polkastats-backend/docker-compose-kusama.yml up -d",
     "docker:westend": "docker-compose -f docker/polkastats-backend/docker-compose-westend.yml up -d",
