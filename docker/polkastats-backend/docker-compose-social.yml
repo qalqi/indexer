@@ -22,7 +22,7 @@ services:
   postgres:
     image: postgres
     ports:
-     - "5432:5432"
+     - "5434:5432"
     restart: always
     volumes:
       - "db-data:/var/lib/postgresql/data"
@@ -68,6 +68,8 @@ services:
       - WS_PROVIDER_URL=wss://chi1.social.network
       - SUBSTRATE_NETWORK=polkadot
       - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+
 #
 # Persisten volumes
 #
