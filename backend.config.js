@@ -6,7 +6,7 @@ module.exports = {
   wsProviderUrl: process.env.WS_PROVIDER_URL || 'wss://chi1.social.network',
 
   postgresConnParams: {
-    user: process.env.POSTGRES_USER || 'polkastats',
+    user: process.env.POSTGRES_USER || 'postgres',
     host: process.env.POSTGRES_HOST || 'localhost',
     database: process.env.POSTGRES_DATABASE || 'polkastats',
     password: process.env.POSTGRES_PASSWORD || 'polkastats',
